@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+.App-clock {
+  font-family: 'Orbitron', sans-serif;
+  color: #2d31f0;
+  font-size: 30px;
+  text-align: center;
+  padding-top:40px;
+  padding-bottom: 40px;
+  padding: 1rem;
+  background-color: #f4f492;
+  margin: 0 0 1rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45rem;
+  border-radius: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clock_remove {
+  height: 2rem;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 10px;
+  border: none;
+  background-color: #3F51B5;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  border-radius: 5px;
+  width: 2rem;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .15s ease-out;
+}
+
+.clock_remove:hover {
+  cursor: pointer;
+  background-color: #c0d;
+}
